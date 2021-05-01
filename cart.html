@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--header kısmı-->
+    <div class="header">
+        <div class="headerParts" id="logo"></div>
+        <div class="headerParts"><a href="index.html">HOME</a></div>
+        <div class="headerParts">CATEGORIES
+            <ul class="dropdown">
+                <li><a href="women.html">WOMEN</a></li>
+                <li><a href="men.html">MEN</a></li>
+                <li><a href="kids.html">KIDS</a></li>
+                <li><a href="accessouries.html">ACCESSOURIES</a></li>
+            </ul>
+        </div>
+        <div class="headerParts"><a href="contact.html">CONTACT</a></div>
+        <div class="headerParts"><a href="cart.html">CART</a></div>
+    </div>
+    <div class="smallMainPicture">
+        <h1 class="mainPicTitle">C A R T</h1>
+    </div>
+
+    <!-- CART DİVLERİ  -->
+
+    <div class="bigCart">
+        <div class="cartGeneral">
+            <div class="cartTitles">
+                <div class="cartInfo">PRODUCT</div>
+                <div class="cartInfo">NAME</div>
+                <div class="cartInfo" style="margin-left: 25px;">SIZE</div>
+                <div class="cartInfo">PRICE</div>
+            </div>
+
+            <div class="cartProducts" id="cartProducts" style="margin-bottom: 50px;">
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="cartBuy">
+            <h2 style="float: right; margin-right: 20px; font-size: 24px; margin-top: 25px;">Orders</h2>
+            <div class="priceArea">
+                <div class="priceText">Prices</div>
+                <div class="priceNumber" id="costPrice">0₺</div>
+            </div>
+
+            <div class="shipment">
+                <div class="shipmentText">Shipment</div>
+                <div class="shipmentNumber">9,99₺</div>
+            </div>
+
+            <div class="allPrice">
+                <div class="allPriceText">Total price you will pay</div>
+                <div class="allPricePrice" id="allPrice">0₺</div>
+            </div>
+
+            <a href="payment.html"><div class="addToCart" id="addToCart" style="margin-left:20px ;">BUY</div></a>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer kısmı-->
+    <footer>
+        <div id="footerContainer">
+
+            <div class="footerBox">
+                <h2> Location </h2>
+                <br><span>Beşyol, İnönü Cd. No:38</span><br>
+                <br> <span>34295 Küçükçekmece İstanbul</span>
+            </div>
+
+            <div class="footerBox">
+                <h2> Social Media </h2>
+                <div id="socialMedia">
+
+                    <div class="socialAccounts"><a href="#"><img src="img/facebook.png" alt="facebook"> </a></div>
+                    <div class="socialAccounts"><a href="#"><img src="img/twitter.png" alt="twitter"></a></div>
+                    <div class="socialAccounts"> <a href="#"><img src="img/instagram.png" alt="instagram"></a></div>
+                    <div class="socialAccounts"> <a href="#"><img src="img/youtube.png" alt="youtube"></a></div>
+
+                </div>
+            </div>
+            <div class="footerBox">
+
+                <h2>Contact</h2>
+                <div class="iletisim">
+                    <p> <span>Phone:</span> +90 542 523 27 74</p> <br>
+                    <p> <span>E mail:</span> shooping@gmail.com</p>
+                </div>
+
+            </div>
+            <div style="clear: left;"></div>
+
+        </div>
+
+        <div id="enAltKısım">
+
+            <p>© Copyright 2001-2020 Online.com</p>
+
+            <div class="footerMenu">
+                <div class="footerParts"> <a href="#">HOME</a></div>
+                <div class="footerParts"><a href="#">CATEGORIES</a></div>
+                <div class="footerParts"> <a href="#">CONTACT</a></div>
+                <div class="footerParts"> <a href="#">CART</a></div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="./js/Cart.js"></script>
+
+</body>
+
+
+</html>
